@@ -51,13 +51,13 @@ function PrintReceipt() {
   
   printText("---------------------------\n",2, 2, true, false, false, 0, 1);
   for (let index = 0; index < etelek.length; index++) {
-    printText(etelek[index].count+" "+etelek[index].name,1, 2, true, false, false, 0, 1);
+    printText(etelek[index].count+" "+etelek[index].name+'\n',1, 2, true, false, false, 0, 1);
     printText("("+etelek[index].info+") "+"\n",1, 1, true, false, false, 0, 0);
 
     
   }
  
-  printText("\nMegjegyzés: "+megjegyzes+"\n",0, 1, true, false, false, 0, 1);
+  printText("\nMegjegyzés: "+megjegyzes+"\n",1, 1, true, false, false, 0, 1);
   }
   
   /*printText("Items 2                             1                   200.00\n", 0, 0, false, false, false, 0, 0);
@@ -377,7 +377,8 @@ return true;
 <br />
 <br />
 <input type="text" className="form-control" style={{height:"150px", width:"150px",textAlign:"center"}} onChange={(e)=>setmegjegyzes(e.target.value)} placeholder="Megjegyzés" />
-
+<br />
+<br />
 
     {kosar.map((value,index)=>{
       {termek.map((t,a)=>{
