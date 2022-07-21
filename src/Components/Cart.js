@@ -54,7 +54,7 @@ function PrintReceipt() {
     
   }
  
-  printText("\nMegjegyzés: "+"asd"+"\n",0, 1, true, false, false, 0, 1);
+ // printText("\nMegjegyzés: "+"asd"+"\n",0, 1, true, false, false, 0, 1);
   }
   
   /*printText("Items 2                             1                   200.00\n", 0, 0, false, false, false, 0, 0);
