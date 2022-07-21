@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/CastrumApp/static/css/main.7b1176a7.css",
-    "main.js": "/CastrumApp/static/js/main.5b486b5a.js",
+    "main.js": "/CastrumApp/static/js/main.71ce1f25.js",
     "static/js/787.2b5e0a1a.chunk.js": "/CastrumApp/static/js/787.2b5e0a1a.chunk.js",
     "static/media/vinque.ttf": "/CastrumApp/static/media/vinque.96df52f34ec04dd3e9ef.ttf",
     "index.html": "/CastrumApp/index.html",
     "main.7b1176a7.css.map": "/CastrumApp/static/css/main.7b1176a7.css.map",
-    "main.5b486b5a.js.map": "/CastrumApp/static/js/main.5b486b5a.js.map",
+    "main.71ce1f25.js.map": "/CastrumApp/static/js/main.71ce1f25.js.map",
     "787.2b5e0a1a.chunk.js.map": "/CastrumApp/static/js/787.2b5e0a1a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7b1176a7.css",
-    "static/js/main.5b486b5a.js"
+    "static/js/main.71ce1f25.js"
   ]
 }
