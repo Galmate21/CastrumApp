@@ -1,0 +1,73 @@
+@font-face{
+    font-family: Castrum;
+    src: url(./fonts/vinque.ttf);
+}
+.nyomtat{
+    font-size: 12px;
+}
+.jobb{
+    text-align: right;
+}
+.kozep{
+    text-align:center;
+}
+body{
+    background-color: rgb(230, 220, 167);
+}
+
+h1{
+    font-family: Castrum;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 62px;
+}
+
+.btn{
+    margin-top: 40px;
+}
+a:link{
+    text-decoration: none;
+}
+
+h3{
+    
+    font-family: Castrum;
+}
+h2{
+    margin-top: 40px;  
+    font-family: Castrum;
+}
+h6{
+    font-weight: bold;
+}
+.button{
+    font-family: Castrum;
+}
+.center{
+    text-align: center;
+}
+.select{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+   
+}
+.small{
+    width: 50px;
+}
+
+.small_ital{
+    width: 65px;
+}
+.alahuz{
+    text-decoration: underline 3px;
+    text-decoration-color:cyan;
+    font-weight: bold;
+    
+    
+}
+#megjegyzes{
+    height: 150px;
+    
+
+}
