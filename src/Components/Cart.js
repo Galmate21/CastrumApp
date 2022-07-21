@@ -368,7 +368,7 @@ return true;
                 
                 
 </Form.Select>
-
+<br />
 <input type="text" className="form-control" style={{height:"200px", width:"200px"}} onChange={(e)=>setmegjegyzes(e.target.value)} placeholder="Megjegyzés" />
 
 </div>
