@@ -256,7 +256,8 @@ return true;
         localStorage.removeItem("cart")
         setkosar([])
         setTimeout(function () {
-          window.location.assign(`/Elozmeny/${asztal}`)
+          /*
+          window.location.assign(`/Elozmeny/${asztal}`)*/
             
          }, 3000);
             setures("A kosara jelenleg üres!")
