@@ -50,7 +50,7 @@ function PrintReceipt() {
   
   printText("---------------------------\n",2, 2, true, false, false, 0, 1);
   for (let index = 0; index < etelek.length; index++) {
-    printText(etelek[index].count+" "+etelek[index].name+" ("+etelek[index].info+") "+"\n",2, 2, true, false, false, 0, 1);
+    printText(etelek[index].count+" "+etelek[index].name+" ("+etelek[index].info+") "+"\n",1, 2, true, false, false, 0, 1);
     
   }
  
