@@ -376,7 +376,7 @@ return true;
 <button style={{fontSize:"12px",marginLeft:"10px", marginBottom:"15px",display: log===false ? 'none' : ''}} className='btn btn-danger' onClick={kivalasztas}>Kiválasztás</button>
 <br />
 <br />
-<input type="text" className="form-control" style={{height:"150px", width:"150px",textAlign:"center"}} onChange={(e)=>setmegjegyzes(e.target.value)} placeholder="Megjegyzés" />
+<input type="text" className="form-control" style={{height:"150px", width:"150px",textAlign:"center",display: log===false ? 'none' : ''}} onChange={(e)=>setmegjegyzes(e.target.value)} placeholder="Megjegyzés" />
 <br />
 <br />
 
