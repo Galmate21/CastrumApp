@@ -19,7 +19,8 @@ function Cart() {
     const [log,setlog]=useState(false);
     const [orders,setorders]=useState([]);
     const [vissza,setvissza]=useState("")
-    const [buttonShow,setButtonShow]=useState(false)
+    const [buttonShow,setButtonShow]=useState(false);
+    const [megjegyzes,setmegjegyzes]=useState("");
     var koret=0;
     var Afa27=0;
 
@@ -50,11 +51,13 @@ function PrintReceipt() {
   
   printText("---------------------------\n",2, 2, true, false, false, 0, 1);
   for (let index = 0; index < etelek.length; index++) {
-    printText(etelek[index].count+" "+etelek[index].name+" ("+etelek[index].info+") "+"\n",1, 2, true, false, false, 0, 1);
+    printText(etelek[index].count+" "+etelek[index].name+" ("+etelek[index].info+") ",1, 2, true, false, false, 0, 1);
+    printText("("+etelek[index].info+") "+"\n",1, 2, true, false, false, 0, 0);
+
     
   }
  
- // printText("\nMegjegyzés: "+"asd"+"\n",0, 1, true, false, false, 0, 1);
+  printText("\nMegjegyzés: "+megjegyzes+"\n",0, 1, true, false, false, 0, 1);
   }
   
   /*printText("Items 2                             1                   200.00\n", 0, 0, false, false, false, 0, 0);
@@ -359,9 +362,14 @@ return true;
                 <option class="form-control" value="18">18</option>
                 <option class="form-control" value="19">19</option>
                 <option class="form-control" value="20">20</option>
+
+
+
                 
                 
 </Form.Select>
+
+<input type="text" className="form-control" style={{height:"200px", width:"200px"}} onChange={(e)=>setmegjegyzes(e.target.value)} placeholder="Megjegyzés" />
 
 </div>
 <button style={{fontSize:"12px",marginLeft:"10px", marginBottom:"15px",display: log===false ? 'none' : ''}} className='btn btn-danger' onClick={kivalasztas}>Kiválasztás</button>
