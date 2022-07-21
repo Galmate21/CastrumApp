@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Galmate21/CastrumApp/static/css/main.4019cb0e.css",
+    "main.js": "/Galmate21/CastrumApp/static/js/main.ad6b5d5f.js",
+    "static/js/787.2b5e0a1a.chunk.js": "/Galmate21/CastrumApp/static/js/787.2b5e0a1a.chunk.js",
+    "static/media/vinque.ttf": "/Galmate21/CastrumApp/static/media/vinque.96df52f34ec04dd3e9ef.ttf",
+    "index.html": "/Galmate21/CastrumApp/index.html",
+    "main.4019cb0e.css.map": "/Galmate21/CastrumApp/static/css/main.4019cb0e.css.map",
+    "main.ad6b5d5f.js.map": "/Galmate21/CastrumApp/static/js/main.ad6b5d5f.js.map",
+    "787.2b5e0a1a.chunk.js.map": "/Galmate21/CastrumApp/static/js/787.2b5e0a1a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4019cb0e.css",
+    "static/js/main.ad6b5d5f.js"
+  ]
+}
