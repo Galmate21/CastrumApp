@@ -1,5 +1,5 @@
-var localAddress = "//192.168.0.192:18080/WebPrintSDK/";
-var connectionMode = "http:";
+var localAddress = "//react-heroku-pragmatica.herokuapp.com//WebPrintSDK/";
+var connectionMode = "https:";
 var wsPrint = null;
 
 var WebSocketPrint = function(serverURL, strPrinterName, request, callback){
